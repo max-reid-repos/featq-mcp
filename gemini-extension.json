@@ -1,0 +1,10 @@
+{
+  "name": "featq",
+  "version": "1.0.1",
+  "mcpServers": {
+    "featq": {
+      "httpUrl": "https://featq.com/api/mcp",
+      "headers": { "Authorization": "Bearer $FEATQ_BOARD_KEY" }
+    }
+  }
+}

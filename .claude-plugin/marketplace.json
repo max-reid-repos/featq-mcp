@@ -1,0 +1,9 @@
+{
+  "name": "featq",
+  "owner": { "name": "FeatQ", "url": "https://featq.com" },
+  "plugins": [{
+    "name": "featq",
+    "source": "./",
+    "description": "FeatQ MCP server: your users' top-voted feature requests, inside your coding agent."
+  }]
+}

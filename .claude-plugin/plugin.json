@@ -1,0 +1,10 @@
+{
+  "name": "featq",
+  "version": "1.0.1",
+  "description": "Connect your coding agent to your FeatQ feature-request board: read top-voted requests, write specs, mark them shipped.",
+  "author": { "name": "FeatQ", "url": "https://featq.com" },
+  "homepage": "https://featq.com/docs/mcp",
+  "repository": "https://github.com/max-reid-repos/featq-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "feature-requests", "roadmap", "feedback", "changelog"]
+}

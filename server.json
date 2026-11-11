@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.featq/featq",
+  "title": "FeatQ",
+  "description": "Feature-request board for software teams: users vote, your coding agent pulls top requests over MCP",
+  "version": "1.0.1",
+  "websiteUrl": "https://featq.com",
+  "icons": [{ "src": "https://featq.com/brand/favicon/apple-touch-icon.png", "mimeType": "image/png", "sizes": ["180x180"] }],
+  "remotes": [{
+    "type": "streamable-http",
+    "url": "https://featq.com/api/mcp",
+    "headers": [{
+      "name": "Authorization",
+      "description": "Bearer fq_<your FeatQ board key> (from the board admin page, 'Connect your coding agent')",
+      "isRequired": true,
+      "isSecret": true
+    }]
+  }]
+}
